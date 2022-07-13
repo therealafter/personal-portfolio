@@ -34,7 +34,7 @@ export function Header() {
             <a href="https://www.instagram.com/flameafter/" target="_blank">
               <i className="ri-instagram-line ri-lg font-xl text-title-color dark:text-dark-title-color duration-300 hover:text-first-color" />
             </a>
-            <a href="linkedin.com/in/edilson-sousa-52934a216/" target="_blank">
+            <a href="https://linkedin.com/in/edilson-sousa-52934a216/" target="_blank">
               <i className="ri-linkedin-box-line ri-lg font-xl text-title-color dark:text-dark-title-color duration-300 hover:text-first-color" />
             </a>
             <a href="https://github.com/therealafter" target="_blank">
