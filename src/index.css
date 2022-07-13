@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*=============== BASE ===============*/
+
+body {
+  @apply bg-body-color text-text-color duration-300 dark:bg-dark-body-color;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-semibold;
+}
+
+ul {
+  @apply list-none;
+}
+
+a {
+  @apply no-underline;
+}
+
+img {
+  @apply max-w-full h-auto;
+}
+
+.button {
+  @apply inline-flex items-center justify-center gap-x-2 bg-first-color text-white py-4 px-6 rounded-lg duration-300 shadow-sm shadow-first-color/40 hover:bg-first-color-alt;
+}
+
+.button.button-gray {
+  @apply hover:bg-text-color-light p-3 bg-text-color-lighten dark:bg-dark-container-color shadow-none;
+}
+
+.filters_button {
+  @apply w-full p-4 text-title-color text-base font-medium rounded-xl cursor-pointer bg-transparent duration-300 hover:bg-body-color dark:hover:bg-dark-body-color dark:text-dark-title-color;
+}
+
+.filters_button.filter_button_active {
+  @apply bg-body-color dark:bg-dark-body-color;
+}
